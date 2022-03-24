@@ -17,7 +17,7 @@ export default {
     "@type": "Offer",
     "url": "http://e634-1-164-138-219.ngrok.io/course_js.html",
     "availability": "InStock",
-    "priceCurrency": "USD",
+    "priceCurrency": "TWD",
     "price": "2600.00"
   }]
 }
