@@ -20,9 +20,39 @@
         content="website">
 
   <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="all.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> -->
+    <link rel="preload"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+          as="style"
+          onload="this.onload=null;this.rel='stylesheet'">
+  <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+  <link rel="stylesheet"
+        href="./css/purge-app.css">
+
+  <!-- <link rel="stylesheet" href="all.css"> -->
+    <!-- extract all.css to this -->
+    <style type="text/css">
+      .bg-primary-soft,
+      .btn-primary-soft {
+        background-color: rgba(51, 94, 234, .1);
+        color: #335eea;
+      }
+    
+      .bi::before,
+      [class^="bi-"]::before,
+      [class*=" bi-"]::before {
+        display: inline-block;
+        font-family: bootstrap-icons !important;
+        font-style: normal;
+        font-weight: normal !important;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        vertical-align: -.125em;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
   <title>Courses | Polymer</title>
 </head>
 <body>
