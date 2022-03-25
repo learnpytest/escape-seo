@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
- "type": "module",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/learnpytest/escape-seo.git"
@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/learnpytest/escape-seo/issues"
   },
-  "homepage": "https://github.com/learnpytest/escape-seo#readme"
+  "homepage": "https://github.com/learnpytest/escape-seo#readme",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "imagemin": "^7.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-webp": "^7.0.0",
+    "img-loader": "^3.0.2",
+    "url-loader": "^4.1.1"
+  }
 }
